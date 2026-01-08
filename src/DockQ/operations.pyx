@@ -2,6 +2,7 @@
 import numpy as np
 cimport numpy as np
 import cython
+np.import_array()
 
 @cython.boundscheck(False)
 @cython.wraparound(False)
